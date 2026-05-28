@@ -1,1 +1,1 @@
-	web: gunicorn Django_CRUD_Operations.wsgi
+web: gunicorn Django_CRUD_Operations.wsgi
