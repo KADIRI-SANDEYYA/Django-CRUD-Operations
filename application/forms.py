@@ -1,11 +1,11 @@
-# from django import forms
-# from .models import EmployeeModel
+from django import forms
+from .models import EmployeeModel
 
 
-# class EmployeeForm(forms.ModelForm):
+class EmployeeForm(forms.ModelForm):
 
-#     class Meta:
+    class Meta:
 
-#         model = EmployeeModel
+        model = EmployeeModel
 
-#         fields = '__all__'
+        fields = '__all__'
